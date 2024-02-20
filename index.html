@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <title>To Do List</title>
+</head>
+<body>
+    <div class="container">
+        <h1 style="font-size: 60px;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Welcome to ToDo List</h1>
+        <div class="row">
+            <label for="Name" > Name: </label> <INPUT TYPE="text" NAME="Name"  class="name">
+        </div>
+        <div class="row">
+            <label for="content">Content:</label>
+            <TEXTAREA NAME="content" ROWS=5 COLS=40 class="content"></TEXTAREA>
+        </div>
+        <div class="row">
+
+            <button id="addButton" class="btn btn-danger">Add ToDo</button>
+        </div>
+        <div class="row" >
+                <ol class="list"></ol>
+        </div>
+    </div>
+</body>
+<script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+<script src="index.js"></script>
+</html>
